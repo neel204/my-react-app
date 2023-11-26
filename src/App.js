@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import ImageContainer from "./components/ImageContainer"
 
 function App() {
+  const unsplashImageUrls = [
+    'https://source.unsplash.com?girls',
+    'https://source.unsplash.com/1000x1000?women',
+    'https://source.unsplash.com/1400x1000?card',
+    'https://source.unsplash.com/1000x1000?bike',
+    'https://source.unsplash.com/1200x1000?boy',
+    'https://source.unsplash.com/1600x1000?train',
+];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <ImageContainer imageUrl={unsplashImageUrls}/>
+      </div>
   );
 }
 
