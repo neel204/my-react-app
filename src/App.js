@@ -3,7 +3,7 @@ import ImageContainer from "./components/ImageContainer"
 
 function App() {
   const unsplashImageUrls = [
-    'https://source.unsplash.com?girls',
+    'https://source.unsplash.com?1400x1200girls',
     'https://source.unsplash.com/1000x1000?women',
     'https://source.unsplash.com/1400x1000?card',
     'https://source.unsplash.com/1000x1000?bike',
